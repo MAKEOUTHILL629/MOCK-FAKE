@@ -1,89 +1,35 @@
 {
-    "mock": {
-    "statuscode": "200",
+  "statuscode": 200,
+  "data": {
+    "meta": {
+      "messageId": "20001",
+      "requestDateTime": "2025-06-25T12:00:00.123456",
+      "applicationId": "5ada3e80-de39-4650-8214-5950f5815466"
+    },
     "data": {
-        "meta": {
-            "messageId": "20001",
-            "requestDateTime": "2025-06-26T110000123456",
-            "applicationId": "5ada3e80-de39-4650-8214-5950f5815466"
-        },
-        "data": {
-            "code": "C001",
-            "detail": {
-                "requestId": "5ada3e80-de39-4650-8214-5950f5815466",
-                "date": "2025-06-26T110000123456",
-                "payments": [
-                    {
-                        "paymentId": "1",
-                        "value": "20000",
-                        "currency": "COP",
-                        "paymentReference": "100-ENT05-20220706071223-pru002",
-                        "title": "Pago Parqueadero",
-                        "subTitle": "Pago placa",
-                        "externalUrl": "",
-                        "descriptions": [
-                            {
-                                "descriptionNumber": "1",
-                                "descriptionTitle": "Tiempo",
-                                "descriptionValue": "0d 2h 4m 3s"
-                            },
-                            {
-                                "descriptionNumber": "1",
-                                "descriptionTitle": "Tiempo",
-                                "descriptionValue": "0d 2h 4m 3s"
-                            }
-                        ]
-                    },
-                    {
-                        "paymentId": "1",
-                        "value": "20000",
-                        "currency": "COP",
-                        "paymentReference": "100-ENT05-20220706071223-pru002",
-                        "title": "Pago Parqueadero",
-                        "subTitle": "Pago placa",
-                        "externalUrl": "",
-                        "descriptions": [
-                            {
-                                "descriptionNumber": "1",
-                                "descriptionTitle": "Tiempo",
-                                "descriptionValue": "0d 2h 4m 3s"
-                            },
-                            {
-                                "descriptionNumber": "1",
-                                "descriptionTitle": "Tiempo",
-                                "descriptionValue": "0d 2h 4m 3s"
-                            },
-                            {
-                                "descriptionNumber": "1",
-                                "descriptionTitle": "Tiempo",
-                                "descriptionValue": "0d 2h 4m 3s"
-                            }
-                        ]
-                    },
-                    {
-                        "paymentId": "1",
-                        "value": "20000",
-                        "currency": "COP",
-                        "paymentReference": "100-ENT05-20220706071223-pru002",
-                        "title": "Pago Parqueadero",
-                        "subTitle": "Pago placa",
-                        "externalUrl": "",
-                        "descriptions": [
-                            {
-                                "descriptionNumber": "1",
-                                "descriptionTitle": "Tiempo",
-                                "descriptionValue": "0d 2h 4m 3s"
-                            },
-                            {
-                                "descriptionNumber": "1",
-                                "descriptionTitle": "Tiempo",
-                                "descriptionValue": "0d 2h 4m 3s"
-                            }
-                        ]
-                    }
-                ]
-            }
-        }
+      "code": "C001",
+      "detail": {
+        "requestId": "5ada3e80-de39-4650-8214-5950f5815466",
+        "date": "2025-06-25T12:00:00.123456",
+        "payments": [
+          {
+            "paymentId": 1,
+            "value": 2000.0,
+            "currency": "COP",
+            "paymentReference": "100-ENT05-20220706071223-pru002",
+            "title": "Pago Parqueadero",
+            "subTitle": "Pago placa",
+            "externalUrl": "",
+            "descriptions": [
+              {
+                "descriptionNumber": 1,
+                "descriptionTitle": "Tiempo",
+                "descriptionValue": "0d 2h 4m 3s"
+              }
+            ]
+          }
+        ]
+      }
     }
-}
+  }
 }
